@@ -1,0 +1,22 @@
+main {
+    padding-top: 50px;
+}
+
+#bio {
+    padding: 20px 20px 10px 20px;
+}
+
+.card {
+    border: 1px solid grey;
+    border-radius: 0px;
+    height: 100%;
+    box-shadow: -3px 3px 3px grey;
+}
+
+.card h4 {
+    padding-top: 5px;
+}
+
+.polaroid {
+    padding-top: 12px;
+}
