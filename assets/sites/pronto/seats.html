@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <link href='reset.css' rel='stylesheet'>
+    <link href='styles.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway" rel="stylesheet">
+  </head>
+  <body class='background' id='bgseats'>
+    <div>
+      <div id='topnav'>
+        <div id='textlogo'>
+          <a href='splash.html'><img src='img/logostacked.svg'></a>
+        </div>
+        <ul id='navbar'>
+          <li><a href='about.html'><img src='img/about.svg'></a></li>
+          <li><a href='food.html'><img src='img/food.svg'></a></li>
+          <li><a href='seats.html'><img src='img/seats.svg'></a></li>
+        </ul>
+      </div>
+      <div id='boxwrapper'>
+        <div class='content contentseats'> <!--Either build a normal HTML&CSS
+                                               form or go really wild and do
+                                               a JavaScript applet-->
+          <h1>Reservations</h1>
+          <img src='img/seatsline.svg' class='line'>
+          <form id='reservations' method='post' action=''>
+            <ul>
+              <li class='formitem'>
+                <input type='text' id='name' placeholder='Full Name'>
+                <label for='name'>Name for Reservation</label>
+              </li>
+              <li class='formitem'>
+                <input type='text' id='name' placeholder='example@provider.com'>
+                <label for='name'>Email Address</label>
+              </li>
+              <li class='formitem'>
+                <input type='email' id='email' placeholder='Month / Day / Year'>
+                <label for='email'>Date Requested</label>
+              </li>
+              <li class='formitem'>
+                <input type='tel' id='phone' placeholder='Maximum ten seats'>
+                <label for='phone'>Number of Seats</label>
+              </li>
+              <li class='formitem'>
+                <input type='text' id='subject' placeholder='Full name of each guest'>
+                <label for='subject'>Place Cards</label>
+              </li>
+              <li class='formitem'>
+                <input type='text' id='notes' placeholder='Vegetarian, celiac, etc.'>
+                <label for='other notes'>Dietary Concerns</label>
+              </li>
+              <li>
+                <button type='submit'><a href='#placeholder'>Submit</a></button>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    <!--Build site without footer and see how it looks, but if a footer is
+        necessary it'll go here-->
+    </div>
+  </body>
+</html>

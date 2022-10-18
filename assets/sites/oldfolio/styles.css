@@ -1,0 +1,179 @@
+/**** GENERAL ****/
+
+h1, h2, h3, li, .nav-dropdown-content {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-size: 2.2em;
+  line-height: 1.1em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3, li {
+  font-size: 1.4em;
+}
+
+p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4em;
+  line-height: 1.1em;
+}
+
+/**** NAVIGATION ****/
+
+.nav ul {
+  top: 0;
+  width: 100%;
+  height: 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-nameplate {
+    margin-left: 1em;
+}
+
+.nav-page-title {
+  margin: 0 auto;
+}
+
+.nav-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.nav-dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 100%;
+  z-index: 1;
+}
+
+.nav-dropdown-content a {
+  display: block;
+  text-decoration: none;
+  text-align: right;
+  color: black;
+  padding-top: .75em;
+}
+
+.nav-dropdown:hover .nav-dropdown-content {
+  display: block;
+}
+
+/**** HERO IMAGES ****/
+
+.hero-image, .hero-image-small {
+  background: url('img/whitestairs.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-image {
+  height: 40em;
+  padding-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero-image-small {
+
+}
+
+
+/**** FLAVOR ****/
+
+.flavor-text-box {
+  width: 80%;
+  margin-left: .5em;
+}
+
+.flavor-text-box h1 {
+  margin-bottom: .5em;
+}
+
+/**** PARAGRAPH BOXES ****/
+
+.paragraph-text-box {
+  margin: 0 auto;
+  padding: 3em 15em;
+  background-color: #dbdbd9; /* Gray Lady */
+}
+
+.paragraph-text-box h2 {
+  text-align: center;
+}
+
+.paragraph-text-box p {
+  padding-top: 1.5em;
+}
+
+
+/**** GENERAL GRIDS ****/
+
+.flex-grid {
+  padding-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #dbdbd9; /* Gray Lady */
+}
+
+.col {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 25em;
+}
+
+
+/**** HOME GRID ****/
+
+.project-tile {
+  margin: 2em auto 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.preview-window {
+  margin-bottom: 3em;
+  width: 25em;
+  height: 25em;
+  border: 1px solid gray;
+  background: url('img/division.jpg');
+  background-size: cover;
+}
+
+.button {
+  border: 1px solid gray;
+  padding: .5em 1em;
+  text-decoration: none;
+  color: gray;
+}
+
+
+/**** MEDIA QUERIES ****/
+
+  /**** BREAKPOINT 1 ****/
+  @media (min-width: 600px) {
+    .flavor-text-box {
+      width: 50%;
+    }
+  }
+
+  /**** BREAKPOINT 2 ****/
+  @media (min-width: 800px) {
+    .flavor-text-box {
+      width: 33%;
+      justify-content: flex-end;
+    }
+  }

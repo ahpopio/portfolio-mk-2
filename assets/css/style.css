@@ -13,6 +13,10 @@ main {
     box-shadow: -3px 3px 3px grey;
 }
 
+.card a img {
+    width: 100%;
+}
+
 .card h4 {
     padding-top: 5px;
 }
