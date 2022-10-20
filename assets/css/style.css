@@ -1,5 +1,14 @@
+/* 
+font-family: 'Lora', serif;
+font-family: 'Raleway', sans-serif;
+ */
+
 main {
     padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
 }
 
 #bio {
@@ -18,7 +27,13 @@ main {
 }
 
 .card h4 {
-    padding-top: 5px;
+    padding-top: 10px;
+    font-family: 'Lora', serif;
+    color: black;
+}
+
+.card p {
+    font-family: 'Raleway', sans-serif;
 }
 
 .polaroid {
