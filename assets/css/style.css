@@ -3,6 +3,11 @@ font-family: 'Lora', serif;
 font-family: 'Raleway', sans-serif;
  */
 
+body {
+    /* Photo by Denise Jans on Unsplash */
+    /* background-image: url(../img/reels.jpg); */
+}
+
 main {
     padding-top: 50px;
 }
@@ -11,8 +16,29 @@ a {
     text-decoration: none;
 }
 
-#bio {
-    padding: 20px 20px 10px 20px;
+ul {
+    list-style: none;
+}
+
+header {
+    background-color: blue;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color: black;
+    font-family: 'Lora', serif;
+}
+
+.splash {
+    height: 500px;
+}
+
+.splash h2 {
+    width: 40%;
 }
 
 .card {
