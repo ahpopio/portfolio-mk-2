@@ -9,7 +9,7 @@ body {
 }
 
 main {
-    padding-top: 50px;
+    padding: 50px 0 50px;
 }
 
 a {
@@ -22,10 +22,13 @@ ul {
 
 header {
     position: fixed;
-    width: 100%;
     z-index: 1111;
+}
+
+header, footer {
+    width: 100%;
     background-color: rgb(46, 46, 46);
-    padding: 20px 35px;
+    padding: 10px 15px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -34,34 +37,40 @@ header {
 header h1 {
     font-family: 'Lora', serif;
     font-size: 2.5em;
+    margin: auto 0;
 }
 
-header h1 a, header ul a {
+header h1 a, header ul a, footer ul a {
     color: rgb(245, 245, 245);
 }
 
-header h1 a:hover, header ul a:hover {
+header h1 a:hover, header ul a:hover, footer ul a:hover {
     color: rgb(201, 201, 201);
 }
 
-header ul {
-    padding-top: 10px;
+header ul, footer ul {
+    padding-top: 5px;
+    margin: auto 0;
     display: flex;
     font-size: 1.5em;
     font-family: 'Lora', serif;
 }
 
-header ul li {
+header ul li, footer ul li {
     padding: 0px 10px;
 }
 
+footer ul {
+    margin: 0 auto;
+}
+
 .splash {
-    height: 500px;
+    height: 600px;
 }
 
 .splash h2 {
     width: 500px;
-    padding: 250px 0px 0px 50px;
+    padding: 350px 0px 0px 50px;
     font-family: 'Lora', serif;
 }
 
